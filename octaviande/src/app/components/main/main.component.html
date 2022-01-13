@@ -1,0 +1,35 @@
+<mat-toolbar class="mat-elevation-z8">
+  <button mat-icon-button *ngIf="sidenav.mode === 'over'" (click)="sidenav.toggle()">
+    <mat-icon *ngIf="!sidenav.opened">
+      menu
+    </mat-icon>
+    <mat-icon *ngIf="sidenav.opened">
+      close
+    </mat-icon>
+  </button>
+  Øctavian Demișcă
+</mat-toolbar>
+
+<mat-sidenav-container>
+  <mat-sidenav #sidenav="matSidenav" class="mat-elevation-z24">
+
+    <button routerLink="/" mat-button class="menu-button" (click)="closeSideNav()">
+      <mat-icon>home</mat-icon>
+      <span>Home</span>
+    </button>
+
+    <mat-divider></mat-divider>
+
+    <button routerLink="/projects" mat-button class="menu-button" (click)="closeSideNav()">
+      <mat-icon>folder</mat-icon>
+      <span>Projects</span>
+    </button>
+
+    <mat-divider></mat-divider>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <div class="content mat-elevation-z24">
+      <router-outlet></router-outlet>
+    </div>
+  </mat-sidenav-content>
+</mat-sidenav-container>

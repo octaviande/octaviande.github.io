@@ -1,0 +1,80 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+.image-txt-container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  padding: 16px;
+}
+
+.img-avatar {
+  width: 15%;
+  height: 15%;
+  border-radius: 50%;
+  border-color: #004a9f;
+  border-style: solid;
+  margin-right: 32px;
+}
+
+.description {
+  font-size: large;
+}
+
+.contact_me_container {
+  text-align: center;
+  align-items: center;
+}
+
+.contact-description {
+  font-size: large;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 8px;
+  border-radius: 50%;
+}
+
+.fa-facebook {
+  background: white;
+  color: #3B5998;
+}
+
+.fa-facebook:hover {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-instagram {
+  background: white;
+  color: #C13584FF;
+}
+
+.fa-instagram:hover {
+  background: linear-gradient(45deg, rgba(64, 93, 230, 1) 0%, rgba(88, 81, 219, 1) 10%, rgba(131, 58, 180, 1) 20%, rgba(193, 53, 132, 1) 30%, rgba(225, 48, 108, 1) 40%, rgba(253, 29, 29, 1) 50%, rgba(245, 96, 64, 1) 60%, rgba(247, 119, 55, 1) 70%, rgba(252, 175, 69, 1) 80%, rgba(255, 220, 128, 1) 90%);
+  color: white;
+}
+
+.fa-linkedin {
+  background: white;
+  color: #007BB5;
+}
+
+.fa-linkedin:hover {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-github {
+  background: white;
+  color: #161b22;
+}
+
+.fa-github:hover {
+  background: #161B22;
+  color: white;
+}

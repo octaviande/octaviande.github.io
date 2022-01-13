@@ -1,0 +1,11 @@
+.divider {
+  height: 16px;
+}
+
+.panel {
+  margin: 0 16px 16px 16px;
+}
+
+.navigate-project-button {
+  float: right;
+}
